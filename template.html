@@ -1,0 +1,16 @@
+<div class="whats-on">
+  {{range .Rows}}
+  <div class="whats-on-row">
+    <div class="whats-on-cell whats-on-image">
+      <img src="{{.ImageURL}}" />
+    </div>
+    <div class="whats-on-cell whats-on-content">
+      <h2>{{.Name}}</h2>
+      <p>{{.Description}}</p>
+    </div>
+    <div class="whats-on-cell whats-on-link">
+      <a href="https://appurl.io/OjutRSz95"><img height="58" width="66" src="http://i67.tinypic.com/sopif9.png" /></a>
+    </div>
+  </div>
+  {{end}}
+</div>
